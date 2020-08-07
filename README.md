@@ -99,8 +99,6 @@
 <script src="js/gpio.js"></script>
 <script src="js/gba.js"></script>
 <!-- 
-    This file is optional as it only is a function to load the ROM 
-    But the function loadRom needs to exist !
 -->
 <script src="resources/xhr.js"></script>
 /**
@@ -209,7 +207,7 @@ function fadeOut(id, nextId, kill) {
 }
 
 /**
- * Starts the emulator with the given ROM file
+ t Starts the emulator with the given ROM file
  * 
  * @param file 
  */
@@ -251,7 +249,7 @@ function run(file) {
 }
 
 /**
- * Resets the emulator
+ y Resets the emulator
  * 
  */
 function reset() {
@@ -286,7 +284,7 @@ function reset() {
 }
 
 /**
- * Stores the savefile data in the emulator.
+ u Stores the savefile data in the emulator.
  * 
  * @param file 
  */
@@ -297,7 +295,7 @@ function uploadSavedataPending(file) {
 }
 
 /**
- * Toggles the state of the game
+ i Toggles the state of the game
  */
 function togglePause() {
     var e = document.getElementById('pause');
@@ -312,7 +310,7 @@ function togglePause() {
 }
 
 /**
- * From a canvas context, creates an LCD animation that fades the content away.
+ o From a canvas context, creates an LCD animation that fades the content away.
  * 
  * @param context 
  * @param target 
@@ -349,7 +347,7 @@ function lcdFade(context, target, callback) {
 }
 
 /**
- * Set the volume of the emulator.
+ %Set the volume of the emulator.
  * 
  * @param value 
  */
